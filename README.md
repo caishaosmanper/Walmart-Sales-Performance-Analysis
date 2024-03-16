@@ -5,7 +5,7 @@ This project aims to analyze Walmart sales data obtained from the Kaggle Walmart
 The project aims to analyze sales data from the Walmart database to derive insights into sales performance, customer behavior, and product trends. By leveraging SQL queries, it seeks to facilitate informed decision-making and strategy optimization for Walmart's retail operations.
 
 ### About Data
-The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset is from 2014 and contains sales transactions of three Walmart branches located in Myanmar, specifically Mandalay, Yangon, and Naypyitaw.
+The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset is comprised of sales transactions from three distinct Walmart branches situated in Mandalay, Yangon, and Naypyitaw in Myanmar.
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
@@ -30,14 +30,14 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 ### Approach Utilized
 
 1. __Data Wrangling:__ The process of converting raw data into a usable form
-> Database construction
-> Table creation and data insertion
-> Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the __NOT NULL__ constraint for each field, effectively filtering out any null values.
+> 1. Database construction
+> 2. Table creation and data insertion
+> 3. Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the __NOT NULL__ constraint for each field, effectively filtering out any null values.
 
-2. __Feature engineering:__ The process of selecting, transforming, extracting, combining, and manipulating raw data to generate the desired variables for analysis 
-> Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
-> Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
-> Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
+2. __Feature engineering:__ This is the process of selecting, transforming, extracting, combining, and manipulating raw data to generate the desired variables for analysis 
+- 1. Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
+- 2. Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
+- 3. Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
 
 3.__Exploratory Data Analysis (EDA):__ The process of exploring data is conducted to address the outlined questions and project objectives.
 __Business Inquiries that are Addressed__
@@ -98,18 +98,18 @@ CREATE DATABASE IF NOT EXISTS walmartSales;
 
 -- Create the table 
 CREATE TABLE IF NOT EXISTs sales(
-    order_id VARCHAR(30) NOT NULL PRIMARY KEY,
+	order_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(3) NOT NULL,
     city VARCHAR(25) NOT NULL,
     customer_category VARCHAR(25) NOT NULL,
-    gender VARCHAR(10) NOT NULL,
+    gender	VARCHAR(10) NOT NULL,
     product_category VARCHAR(25) NOT NULL,
     price DECIMAL(12,2) NOT NULL,
     quantity INT NOT NULL,
     tax DECIMAL(10,4) NOT NULL,
     total DECIMAL(15,4) NOT NULL,
     date DATE NOT NULL,
-    time TIME NOT NULL,
+	time TIME NOT NULL,
     payment_type VARCHAR(15) NOT NULL,
     cogs DECIMAL(15,2) NOT NULL,
     gross_margin_pct DECIMAL(12,10) NOT NULL,
