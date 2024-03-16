@@ -40,7 +40,7 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 > 3. Implement a 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
 
 3.__Exploratory Data Analysis (EDA):__ The process of exploring data is conducted to address the outlined questions and project objectives.
-__Business Inquiries that are Addressed__
++ __Business Inquiries that are Addressed__
 __General Inquiries__
 > 1. How many unique cities does the dataset have?
 > 2. In which city is each branch located?
