@@ -29,23 +29,23 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 
 ### Approach Utilized
 
-1. ***Data Wrangling:*** The process of converting raw data into a usable form
-   > 1. Database construction
-   > 2. Table creation and data insertion
-   > 3. Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the ****NOT NULL**** constraint for each field, effectively filtering out any null values.
+1. __Data Wrangling:__ The process of converting raw data into a usable form
+- 1. Database construction
+- 2. Table creation and data insertion
+- 3. Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the __NOT NULL__ constraint for each field, effectively filtering out any null values.
 
-2. ***Feature engineering:*** This is the process of selecting, transforming, extracting, combining, and manipulating raw data to generate the desired variables for analysis 
-   > 1. Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
-   > 2. Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
-   > 3. Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
+2. __Feature engineering:__ This is the process of selecting, transforming, extracting, combining, and manipulating raw data to generate the desired variables for analysis 
+- 1. Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
+- 2. Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
+- 3. Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
 
-3.***Exploratory Data Analysis (EDA):*** The process of exploring data is conducted to address the outlined questions and project objectives.
-***Business Inquiries that are Addressed***
-****General Inquiries****
+3.__Exploratory Data Analysis (EDA):__ The process of exploring data is conducted to address the outlined questions and project objectives.
+__Business Inquiries that are Addressed__
+__General Inquiries__
 > 1. How many unique cities does the dataset have?
 > 2. In which city is each branch located?
 
-****Merchandise Inquiries****
+__Merchandise Inquiries__
 
 > 3. How many unique product category are there and how much orders does each product category have?
 > 4. What is the most selling product category and how much is it?
@@ -54,14 +54,12 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 > 7. What product category had the largest revenue?>
 > 8. What is the city with the largest revenue?
 > 9. What product category had the largest value-added tax (VAT)?
-> 10. Retrieve each product category and include a column indicating whether 
-	the quantity sold is considered "Good" or "Bad", with "Good" being when the 
-	quantity sold exceeds the average sales.
+> 10. Retrieve each product category and include a column indicating whether the quantity sold is considered "Good" or "Bad", with "Good" being when the quantity sold exceeds the average sales.
 > 11. Which branch sold more products than the overall average product sold?
 > 12. What is the most common product category by gender?
 > 13. What is the average rating within each product category?
 
-****Customer Inquiries****     
+__Customer Inquiries__  
 
 > 14. How many unique customer category does the data have in total?
 > 15. How many unique payment methods does the data have in total?
@@ -74,10 +72,9 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 > 22. Which day of the week has the best avg ratings?
 > 23. Which day of the week has the best average ratings per branch?
 
-****Sales Questions****
+__Sales Questions__
 
-> 24. What is the number of transactions conducted during each time
-		 period for each day of the week?
+> 24. What is the number of transactions conducted during each time period for each day of the week?
 > 25. Which of the customer category brings the most revenue?
 > 26. Which city has the largest tax/VAT percent?
 > 27. Which customer category pays the most in VAT?
