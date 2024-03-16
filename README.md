@@ -17,7 +17,7 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 | product_category        | Product category of the product         | VARCHAR(25)   |
 | price              | The price of each product               | DECIMAL(12,2) |
 | quantity                | The amount of the product sold          | INT            |
-| VAT                 | The amount of tax on the purchase       | DECIMAL(10,4)    |
+| tax                 | The amount of tax on the purchase       | DECIMAL(10,4)    |
 | total                   | The total cost of the purchase          | DECIMAL(15,4) |
 | date                    | The date on which the purchase was made | DATE           |
 | time                    | The time at which the purchase was made | TIMESTAMP      |
