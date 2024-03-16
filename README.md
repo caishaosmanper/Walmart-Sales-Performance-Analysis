@@ -40,12 +40,12 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 > 3. Implement a 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
 
 3.__Exploratory Data Analysis (EDA):__ The process of exploring data is conducted to address the outlined questions and project objectives.
-+ __Business Inquiries that are Addressed__
-__General Inquiries__
+ __Business Inquiries that are Addressed__
++ __General Inquiries__
 > 1. How many unique cities does the dataset have?
 > 2. In which city is each branch located?
 
-__Merchandise Inquiries__
++ __Merchandise Inquiries__
 
 > 3. How many unique product category are there and how much orders does each product category have?
 > 4. What is the most selling product category and how much is it?
@@ -59,7 +59,7 @@ __Merchandise Inquiries__
 > 12. What is the most common product category by gender?
 > 13. What is the average rating within each product category?
 
-__Customer Inquiries__  
++ __Customer Inquiries__  
 
 > 14. How many unique customer category does the data have in total?
 > 15. How many unique payment methods does the data have in total?
@@ -72,7 +72,7 @@ __Customer Inquiries__
 > 22. Which day of the week has the best avg ratings?
 > 23. Which day of the week has the best average ratings per branch?
 
-__Sales Questions__
++ __Sales Inquiries__
 
 > 24. What is the number of transactions conducted during each time period for each day of the week?
 > 25. Which of the customer category brings the most revenue?
