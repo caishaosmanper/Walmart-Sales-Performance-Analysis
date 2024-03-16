@@ -30,14 +30,14 @@ The dataset was obtained from the [Kaggle](https://www.kaggle.com/c/walmart-recr
 ### Approach Utilized
 
 1. ***Data Wrangling:*** The process of converting raw data into a usable form
-   >Database construction
-   >Table creation and data insertion
-   >Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the ****NOT NULL**** constraint for each field, effectively filtering out any null values.
+   > 1. Database construction
+   > 2. Table creation and data insertion
+   > 3. Identification of columns containing null values. Our database doesn't contain null values; during table creation, we enforced the ****NOT NULL**** constraint for each field, effectively filtering out any null values.
 
 2. ***Feature engineering:*** This is the process of selecting, transforming, extracting, combining, and manipulating raw data to generate the desired variables for analysis 
-   >Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
-   >Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
-   >Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
+   > 1. Introduce 'time_of_day' column for Morning, Afternoon, and Evening sales insights, aiding in identifying peak sales periods.
+   > 2. Integrate 'day_name' column, extracting days of the week (Mon, Tue, Wed, Thur, Fri) for branch activity analysis, determining peak days.
+   > 3. Implement 'month_name' column, extracting months (Jan, Feb, Mar) to analyze sales and profit trends by month, identifying peak periods.
 
 3.***Exploratory Data Analysis (EDA):*** The process of exploring data is conducted to address the outlined questions and project objectives.
 ***Business Inquiries that are Addressed***
