@@ -1,5 +1,5 @@
 # Walmart-Sales-Performance-Analysis
-This project aims to analyze Walmart sales data obtained from the Kaggle Walmart Sales Forecasting Competition. The goal is to gain insights into top-performing branches and products, sales trends across different product categories, and customer behaviour. By understanding these aspects, the project seeks to improve and optimize sales strategies.
+This project aims to analyze Walmart sales data obtained from the Kaggle. The goal is to gain insights into top-performing branches and products, sales trends across different product categories, and customer behaviour. By understanding these aspects, the project seeks to improve and optimize sales strategies.
 
 ### Purpose
 The project aims to analyze sales data from the Walmart database to derive insights into sales performance, customer behavior, and product trends. By leveraging SQL queries, it seeks to facilitate informed decision-making and strategy optimization for Walmart's retail operations.
